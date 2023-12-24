@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enyang Zhang | Software Developer</title>
+    <link rel="stylesheet" href="/resetcss.css">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+</head>
+
+<body>
+<!--to close the sidebar-->
+<div id="overlay" onclick="off()"></div>
+
+<div id="navbar">
+    <!--sidebar three line button-->
+    <div class="nav-burger" onclick="toggleSidebar()">
+        <div class="nav-burger-line"></div>
+        <div class="nav-burger-line"></div>
+        <div class="nav-burger-line"></div>
+    </div>
+
+    <div class="nav-title">
+        <a href="#intro">Enyang Zhang</a>
+    </div>
+</div>
+
+<div id="sidebar">
+    <ul class="menu">
+        <li class="menu-title">
+            <a href="#intro" onclick="toggleSidebarBtn()">
+                <h1 id="sidebar-name">Enyang Zhang</h1>
+                <span id="sidebar-subtitle">Software developer</span>
+                <a href="www.linkedin.com/in/enyangzhang" target="_blank"><i class="fab fa-linkedin fa-lg" style="margin-right: 10px;"></i></a>
+                <a href="https://github.com/EnyangZhang" target="_blank"><i class="fab fa-github fa-lg"></i></a>
+            </a>
+        </li>
+        <li class="menu-item">
+            <a href="#about" id="about-link" onclick="toggleSidebarBtn()">
+                <i class="fas fa-user fa-lg"></i>
+                <span>About</span>
+            </a>
+        </li>
+        <li class="menu-item">
+            <a href="#experience" id="experiences-link" onclick="toggleSidebarBtn()">
+                <i class="fas fa-chart-line fa-lg"></i>
+                <span>Experience</span>
+            </a>
+        </li>
+        <li class="menu-item">
+            <a href="#projects" id="projects-link" onclick="toggleSidebarBtn()">
+                <i class="fas fa-window-restore fa-lg"></i>
+                <span>Projects</span>
+            </a>
+        </li>
+        <li class="menu-item">
+            <a href="#contact" id="contact-link" onclick="toggleSidebarBtn()">
+                <i class="fas fa-envelope fa-lg"></i>
+                <span>Contact</span>
+            </a>
+        </li>
+    </ul>
+</div>
+
+
+</body>
+</html>
