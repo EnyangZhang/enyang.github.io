@@ -120,7 +120,6 @@ body a {
     background-color: #f9f1ff;
 }
 
-
 .fab,
 .fas,
 .far {
@@ -219,63 +218,7 @@ body a {
     }
 }
 
-/**************************/
-@media (max-width: 1088px) {
-    /* Navbar CSS*/
-    #navbar {
-        -moz-box-shadow: 1px 0 5px 0 #aaaaaa;
-        -webkit-box-shadow: 1px 0 5px 0 #aaaaaa;
-        box-shadow: 1px 0 5px 0 #aaaaaa;
-        top: 0;
-    }
 
-    /*Sidebar CSS*/
-    #sidebar {
-        position: fixed;
-        left: -195px;
-    }
-
-    /*
-    Content CSS
-    */
-    #content {
-        margin-left: 0;
-    }
-
-    .content-header {
-        font-size: 2.5rem;
-    }
-
-    .container {
-        width: 80%;
-    }
-
-    #content section {
-        padding-top: 45px;
-    }
-
-    #content #intro {
-        margin-bottom: -48px;
-        background-position-x: 20%;
-    }
-    #intro #intro-text {
-        font-size: 3rem;
-    }
-
-    /* Experience Card */
-    .exp-card {
-        width: 100%;
-    }
-
-    .exp-card li {
-        line-height: 25px;
-    }
-
-    /* Project Card */
-    .card {
-        width: 45%;
-    }
-}
 
 /*sidebar list s*/
 li {
@@ -362,6 +305,64 @@ blockquote {
     margin-top: 30px;
     padding-top: 15px;
     border-top: 1px solid #d3d3d3;
+}
+
+/**************************/
+@media (max-width: 1088px) {
+    /* Navbar CSS*/
+    #navbar {
+        -moz-box-shadow: 1px 0 5px 0 #aaaaaa;
+        -webkit-box-shadow: 1px 0 5px 0 #aaaaaa;
+        box-shadow: 1px 0 5px 0 #aaaaaa;
+        top: 0;
+    }
+
+    /*Sidebar CSS*/
+    #sidebar {
+        position: fixed;
+        left: -195px;
+    }
+
+    /*
+    Content CSS
+    */
+    #content {
+        margin-left: 0;
+    }
+
+    .content-header {
+        font-size: 2.5rem;
+    }
+
+    .container {
+        width: 80%;
+    }
+
+    #content section {
+        padding-top: 45px;
+    }
+
+    #content #intro {
+        margin-bottom: -48px;
+        background-position-x: 20%;
+    }
+    #intro #intro-text {
+        font-size: 3rem;
+    }
+
+    /* Experience Card */
+    .exp-card {
+        width: 100%;
+    }
+
+    .exp-card li {
+        line-height: 25px;
+    }
+
+    /* Project Card */
+    .card {
+        width: 45%;
+    }
 }
 
 @media (max-width: 735px) {
@@ -453,3 +454,4 @@ blockquote {
         background-color: white;
     }
 }
+
