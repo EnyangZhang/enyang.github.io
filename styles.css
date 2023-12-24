@@ -307,7 +307,6 @@ blockquote {
     border-top: 1px solid #d3d3d3;
 }
 
-/**************************/
 @media (max-width: 1088px) {
     /* Navbar CSS*/
     #navbar {
@@ -455,3 +454,52 @@ blockquote {
     }
 }
 
+/*
+    EXPERIENCE CONTENT SECTION
+*/
+.exp-card {
+    position: relative;
+    width: 75%;
+    margin: 0 auto var(--margin-bottom) auto;
+    padding: 10px 45px 10px 45px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 5px 10px 0 rgba(0, 0, 0, 0.15);
+}
+
+.exp-card-header {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.exp-card .card-name {
+    margin-left: 15px;
+    font-size: 1.7rem;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.JAVA-exp-text {
+    color: #5392d2;
+}
+
+.card-name .job {
+    display: block;
+    font-size: 1rem;
+    color: var(--happy-brown);
+}
+
+.card-name .date {
+    font-size: 1rem;
+    line-height: 1px;
+}
+
+.exp-card li {
+    list-style-position: inside;
+    line-height: 35px;
+}
