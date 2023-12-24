@@ -26,9 +26,3 @@ The result? A comprehensive overview of the time and effort invested in each seg
 ---
 
 Thank you for visiting my digital abode. Feel free to explore and connect with me!
-
-[Explore My Portfolio](https://enyang.github.io)
-
-[Connect with Me on LinkedIn](Your LinkedIn URL)
-
-[Follow Me on GitHub](https://github.com/enyang)
