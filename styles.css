@@ -26,6 +26,148 @@ body a {
 }
 
 /*sidebar*/
+#sidebar {
+    position: fixed;
+    float: left;
+    width: var(--sidebar-width);
+    height: 100%;
+    transition: left 0.3s;
+    background-color: whitesmoke;
+    -moz-box-shadow: 1px 0 5px 0 #aaaaaa;
+    -webkit-box-shadow: 1px 0 5px 0 #aaaaaa;
+    box-shadow: 1px 0 5px 0 #aaaaaa;
+    z-index: 999;
+}
+
+#sidebar.active {
+    left: 0;
+}
+
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+    z-index: 998; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+}
+
+#sidebar .menu-title {
+    height: 100%;
+    width: 100%;
+    padding: 20px 20px 5px 38px;
+    border-bottom: 2px solid #d3d3d3;
+}
+
+#sidebar .menu-title h1 {
+    font-size: 2rem;
+    font-weight: 100;
+    line-height: 30px;
+    color: #5392d2;
+}
+
+#sidebar .menu-title span {
+    line-height: 35px;
+    color: var(--happy-brown);
+}
+
+.menu .menu-item a {
+    color: #333333;
+    font-size: 15px;
+    display: block;
+    box-sizing: border-box;
+    line-height: 50px;
+    padding-left: 30px;
+    transition: border-left 0.5s;
+}
+
+#about-link:hover {
+    border-left: 10px solid var(--happy-blue);
+    background-color: #f9f1ff;
+}
+#experiences-link:hover {
+    border-left: 10px solid var(--happy-green);
+    background-color: #f9f1ff;
+}
+#projects-link:hover {
+    border-left: 10px solid #ff2015;
+    background-color: #f9f1ff;
+}
+#contact-link:hover {
+    border-left: 10px solid #ff8c00;
+    background-color: #f9f1ff;
+}
+
+#about-link.selected {
+    border-left: 7px solid var(--happy-blue);
+    background-color: #f9f1ff;
+}
+#experiences-link.selected {
+    border-left: 7px solid var(--happy-green);
+    background-color: #f9f1ff;
+}
+#projects-link.selected {
+    border-left: 7px solid #ff2015;
+    background-color: #f9f1ff;
+}
+#contact-link.selected {
+    border-left: 7px solid #ff8c00;
+    background-color: #f9f1ff;
+}
+
+
+.fab,
+.fas,
+.far {
+    margin-right: 10px;
+    color: var(--happy-brown);
+    transition: 0.5s;
+}
+.fa-github:hover {
+    color: black;
+}
+.fa-linkedin:hover {
+    color: var(--happy-blue);
+}
+.fa-youtube:hover {
+    color: red;
+}
+.fa-at:hover {
+    color: darkorange;
+}
+.fa-user-graduate:hover {
+    color: darkorange;
+}
+.fa-external-link-alt:hover {
+    color: darkgoldenrod;
+}
+.fab:hover,
+.fas:hover,
+.far:hover {
+    transform: scale(1.5);
+    /* box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25); */
+}
+
+.fa-user {
+    color: var(--happy-blue);
+}
+.fa-chart-line {
+    color: #50c32b;
+}
+.fa-window-restore {
+    color: #ff2015;
+}
+.fa-envelope {
+    color: #ff8c00;
+}
+
+
+/*Navbar CSS*/
 #navbar {
     display: flex;
     position: fixed;
@@ -64,8 +206,22 @@ body a {
     color: var(--happy-blue);
 }
 
+@media (max-width: 1300px) {
+    .exp-card {
+        width: 90%;
+    }
+    .card-popup .popup-title {
+        font-size: 1.2rem;
+    }
+
+    .popup-body li {
+        line-height: 20px;
+    }
+}
+
+/**************************/
 @media (max-width: 1088px) {
-    /*Navbar CSS*/
+    /* Navbar CSS*/
     #navbar {
         -moz-box-shadow: 1px 0 5px 0 #aaaaaa;
         -webkit-box-shadow: 1px 0 5px 0 #aaaaaa;
@@ -73,43 +229,17 @@ body a {
         top: 0;
     }
 
-    /*Content CSS*/
-    #content {
-        margin-left: 0;
-    }
-
-    .content-header {
-        font-size: 2.5rem;
-    }
-
-    .container {
-        width: 80%;
-    }
-
-    #content section {
-        padding-top: 45px;
-    }
-
-    #content #intro {
-        margin-bottom: -48px;
-        background-position-x: 20%;
-    }
-    #intro #intro-text {
-        font-size: 3rem;
-    }
-
-    /* Experience Card */
-    .exp-card {
-        width: 100%;
-    }
-
-    .exp-card li {
-        line-height: 25px;
-    }
-
-    /* Project Card */
-    .card {
-        width: 45%;
+    /*Sidebar CSS*/
+    #sidebar {
+        position: fixed;
+        left: -195px;
     }
 }
 
+li {
+    list-style: disc;
+    list-style-position: outside;
+    line-height: 30px;
+    height: 100%;
+    font-size: 0.9rem;
+}

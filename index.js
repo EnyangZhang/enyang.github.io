@@ -21,8 +21,8 @@ function toggleSidebar() {
     }
 }
 
-function toggleSidebarBtn() {
-    let sidebar = document.querySelector("#sidebar");
-    sidebar.classList.toggle("active");
-    document.getElementById("overlay").style.display = "none";
-}
+// function toggleSidebarBtn() {
+//     let sidebar = document.querySelector("#sidebar");
+//     sidebar.classList.toggle("active");
+//     document.getElementById("overlay").style.display = "none";
+// }
