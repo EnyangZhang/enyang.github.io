@@ -236,10 +236,28 @@ body a {
     }
 }
 
+/*sidebar list s*/
 li {
     list-style: disc;
     list-style-position: outside;
     line-height: 30px;
     height: 100%;
     font-size: 0.9rem;
+}
+
+/*
+    INTRO CONTENT SECTION
+*/
+#intro {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("/undergalaxy.png") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* background-attachment: fixed; doesn't work for apple phones*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

@@ -23,6 +23,18 @@ I took a step further by integrating Jira with my Git commits. I set up automati
 ### A Testament to Time and Effort
 The result? A comprehensive overview of the time and effort invested in each segment of this website. This level of tracking and analysis not only improved my efficiency but also provided me with a clear understanding of the development lifecycle. It's a testament to the dedication I have put into this project, ensuring every minute counts.
 
+### Jira confluence
+Use Jira confluence as notebook 
+
+## Git Branching Strategy
+Only the functional and bug free version will be merged to master branch.
+
 ---
 
 Thank you for visiting my digital abode. Feel free to explore and connect with me!
+
+[Explore My Portfolio](https://enyangzhang.github.io)
+
+[Connect with Me on LinkedIn](https://www.linkedin.com/in/enyangzhang)
+
+[Follow Me on GitHub](https://github.com/enyangzhang)
