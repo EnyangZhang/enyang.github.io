@@ -94,10 +94,17 @@ body a {
     border-left: 10px solid var(--happy-green);
     background-color: #f9f1ff;
 }
+
+#current-link:hover {
+    border-left: 10px solid #795548;
+    background-color: #f9f1ff;
+}
+
 #projects-link:hover {
     border-left: 10px solid #ff2015;
     background-color: #f9f1ff;
 }
+
 #contact-link:hover {
     border-left: 10px solid #ff8c00;
     background-color: #f9f1ff;
@@ -109,6 +116,10 @@ body a {
 }
 #experiences-link.selected {
     border-left: 7px solid var(--happy-green);
+    background-color: #f9f1ff;
+}
+#current-link.selected {
+    border-left: 7px solid #795548;
     background-color: #f9f1ff;
 }
 #projects-link.selected {
@@ -502,4 +513,130 @@ blockquote {
 .exp-card li {
     list-style-position: inside;
     line-height: 35px;
+}
+
+/*Project card section*/
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    position: relative;
+    width: 30%;
+    min-height: var(--card-height);
+    background: #fff;
+    border: 1px solid #ccc;
+    margin-bottom: var(--margin-bottom);
+    transition: 0.5s;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 5px 10px 0 rgba(0, 0, 0, 0.15);
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 20px 15px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-container {
+    cursor: pointer;
+}
+
+.card-header img {
+    width: 100%;
+}
+
+.card-header img {
+    width: 100%;
+}
+
+.card-body {
+    padding: 10px 20px 30px 20px;
+}
+
+.card-name {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: var(--happy-blue);
+    font-weight: 400;
+}
+
+.card-info {
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+}
+
+/* POPUP CARD REVEAL */
+.card-popup {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100%;
+    top: 500px;
+    background-color: #fff;
+    transition: 0.5s;
+}
+
+.card-popup.active {
+    top: 0;
+}
+
+.card-popup .popup-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: var(--happy-brown);
+}
+
+.popup-title a {
+    float: right;
+    color: var(--happy-brown);
+    cursor: pointer;
+}
+
+.popup-body {
+    padding: 25px;
+}
+
+.popup-body ul {
+    padding-left: 23px;
+}
+
+.popup-footer {
+    color: var(--happy-brown);
+    margin-top: auto;
+    padding: 20px;
+    border-top: 1px solid #d3d3d3;
+}
+
+/*
+    CONTACT CONTENT SECTION
+*/
+#contact {
+    height: 600px;
+}
+
+#contact a {
+    color: var(--happy-blue);
+    font-size: 2rem;
+    line-height: 53px;
+    transition: all 0.5s ease;
+}
+
+#contact a:hover {
+    color: var(--happy-brown);
+}
+
+strong {
+    font-weight: 500;
+}
+
+footer {
+    text-align: center;
+    color: #555;
+    padding-bottom: 20px;
 }

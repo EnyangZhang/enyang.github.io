@@ -97,4 +97,88 @@ function toggleSidebarBtn() {
 }
 
 
+// adding a click event to the card-container to open pop up card
+const projectCards = document.querySelectorAll(".card-container");
+for (let card of projectCards) {
+    card.addEventListener("click", function () {
+        card.nextElementSibling.classList.add("active");
+    });
+}
 
+// Adding a click event to the 'x' button of pop up card
+const popupCloseButtons = document.querySelectorAll(".popup-x-btn");
+for (let button of popupCloseButtons) {
+    button.addEventListener("click", function () {
+        button.parentElement.parentElement.offsetParent.classList.remove(
+            "active"
+        );
+    });
+}
+
+// Smooth Scrolling
+const scroll = new SmoothScroll('#sidebar a[href*="#"], #navbar a[href*="#"]', {
+    speed: 500,
+});
+
+// Sidebar item selected
+const navbarName = document.querySelector(".nav-title")
+const sidebarName = document.querySelector("#sidebar-name")
+const sidebarSubtitle = document.querySelector("#sidebar-subtitle")
+const about = document.querySelector("#about-link")
+const experiences = document.querySelector("#experiences-link")
+const current = document.querySelector("#current-link")
+const projects = document.querySelector("#projects-link")
+const contact = document.querySelector("#contact-link")
+
+navbarName.addEventListener('click', removeItemSelected)
+sidebarName.addEventListener('click', removeItemSelected)
+sidebarSubtitle.addEventListener('click', removeItemSelected)
+
+about.addEventListener('click', () => {
+    about.classList.add("selected")
+    experiences.classList.remove("selected")
+    projects.classList.remove("selected")
+    contact.classList.remove("selected")
+    current.classList.remove("selected")
+})
+
+experiences.addEventListener('click', () => {
+    experiences.classList.add("selected")
+    about.classList.remove("selected")
+    projects.classList.remove("selected")
+    contact.classList.remove("selected")
+    current.classList.remove("selected")
+})
+
+projects.addEventListener('click', () => {
+    projects.classList.add("selected")
+    experiences.classList.remove("selected")
+    about.classList.remove("selected")
+    contact.classList.remove("selected")
+    current.classList.remove("selected")
+})
+
+contact.addEventListener('click', () => {
+    contact.classList.add("selected")
+    experiences.classList.remove("selected")
+    projects.classList.remove("selected")
+    about.classList.remove("selected")
+    current.classList.remove("selected")
+})
+
+
+current.addEventListener('click', () => {
+    current.classList.add("selected")
+    contact.classList.remove("selected")
+    experiences.classList.remove("selected")
+    projects.classList.remove("selected")
+    about.classList.remove("selected")
+})
+
+function removeItemSelected() {
+    about.classList.remove("selected")
+    experiences.classList.remove("selected")
+    projects.classList.remove("selected")
+    contact.classList.remove("selected")
+    current.classList.remove("selected")
+}
