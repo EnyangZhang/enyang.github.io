@@ -1,6 +1,6 @@
 # Welcome to My Personal Portfolio: A Journey from Draft to Digital Canvas 🌟
 
-Hello there! I'm Enyang, and this is my personal portfolio, hosted at [enyang.github.io](https://enyang.github.io). What you see here is the culmination of a unique journey - one that began with a humble draft and evolved into this hand-coded website.
+Hello there! I'm Enyang, and this is my personal portfolio, hosted at [enyangzhang.github.io](https://enyangzhang.github.io). What you see here is the culmination of a unique journey - one that began with a humble draft and evolved into this hand-coded website.
 
 ## The Genesis of My Digital Space 🚀
 This portfolio is not just a collection of projects; it's a narrative of growth and learning. I started with nothing but a draft - a canvas of possibilities. Each line of code was typed with intention, each design choice made with care. No templates, no shortcuts. Just pure, handcrafted code.
@@ -23,6 +23,18 @@ I took a step further by integrating Jira with my Git commits. I set up automati
 ### A Testament to Time and Effort
 The result? A comprehensive overview of the time and effort invested in each segment of this website. This level of tracking and analysis not only improved my efficiency but also provided me with a clear understanding of the development lifecycle. It's a testament to the dedication I have put into this project, ensuring every minute counts.
 
+### Jira confluence
+Use Jira confluence as notebook 
+
+## Git Branching Strategy
+Only the functional and bug free version will be merged to master branch.
+
 ---
 
 Thank you for visiting my digital abode. Feel free to explore and connect with me!
+
+[Explore My Portfolio](https://enyangzhang.github.io)
+
+[Connect with Me on LinkedIn](https://www.linkedin.com/in/enyangzhang)
+
+[Follow Me on GitHub](https://github.com/enyangzhang)
