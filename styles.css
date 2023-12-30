@@ -216,18 +216,18 @@ body a {
     color: var(--happy-blue);
 }
 
-@media (max-width: 1300px) {
-    .exp-card {
-        width: 90%;
-    }
-    .card-popup .popup-title {
-        font-size: 1.2rem;
-    }
+/*@media (max-width: 1300px) {*/
+/*    .exp-card {*/
+/*        width: 90%;*/
+/*    }*/
+/*    .card-popup .popup-title {*/
+/*        font-size: 1.2rem;*/
+/*    }*/
 
-    .popup-body li {
-        line-height: 20px;
-    }
-}
+/*    .popup-body li {*/
+/*        line-height: 20px;*/
+/*    }*/
+/*}*/
 
 
 
@@ -318,121 +318,121 @@ blockquote {
     border-top: 1px solid #d3d3d3;
 }
 
-@media (max-width: 1088px) {
-    /* Navbar CSS*/
-    #navbar {
-        -moz-box-shadow: 1px 0 5px 0 #aaaaaa;
-        -webkit-box-shadow: 1px 0 5px 0 #aaaaaa;
-        box-shadow: 1px 0 5px 0 #aaaaaa;
-        top: 0;
-    }
+/*@media (max-width: 1088px) {*/
+/*    !* Navbar CSS*!*/
+/*    #navbar {*/
+/*        -moz-box-shadow: 1px 0 5px 0 #aaaaaa;*/
+/*        -webkit-box-shadow: 1px 0 5px 0 #aaaaaa;*/
+/*        box-shadow: 1px 0 5px 0 #aaaaaa;*/
+/*        top: 0;*/
+/*    }*/
 
-    /*Sidebar CSS*/
-    #sidebar {
-        position: fixed;
-        left: -195px;
-    }
+/*    !*Sidebar CSS*!*/
+/*    #sidebar {*/
+/*        position: fixed;*/
+/*        left: -195px;*/
+/*    }*/
 
-    /*
-    Content CSS
-    */
-    #content {
-        margin-left: 0;
-    }
+/*    !**/
+/*    Content CSS*/
+/*    *!*/
+/*    #content {*/
+/*        margin-left: 0;*/
+/*    }*/
 
-    .content-header {
-        font-size: 2.5rem;
-    }
+/*    .content-header {*/
+/*        font-size: 2.5rem;*/
+/*    }*/
 
-    .container {
-        width: 80%;
-    }
+/*    .container {*/
+/*        width: 80%;*/
+/*    }*/
 
-    #content section {
-        padding-top: 45px;
-    }
+/*    #content section {*/
+/*        padding-top: 45px;*/
+/*    }*/
 
-    #content #intro {
-        margin-bottom: -48px;
-        background-position-x: 20%;
-    }
-    #intro #intro-text {
-        font-size: 3rem;
-    }
+/*    #content #intro {*/
+/*        margin-bottom: -48px;*/
+/*        background-position-x: 20%;*/
+/*    }*/
+/*    #intro #intro-text {*/
+/*        font-size: 3rem;*/
+/*    }*/
 
-    /* Experience Card */
-    .exp-card {
-        width: 100%;
-    }
+/*    !* Experience Card *!*/
+/*    .exp-card {*/
+/*        width: 100%;*/
+/*    }*/
 
-    .exp-card li {
-        line-height: 25px;
-    }
+/*    .exp-card li {*/
+/*        line-height: 25px;*/
+/*    }*/
 
-    /* Project Card */
-    .card {
-        width: 45%;
-    }
-}
+/*    !* Project Card *!*/
+/*    .card {*/
+/*        width: 45%;*/
+/*    }*/
+/*}*/
 
-@media (max-width: 735px) {
-    #content #intro {
-        background-position-x: 40%;
-    }
-    #intro #intro-text {
-        font-size: 1.5rem;
-    }
+/*@media (max-width: 735px) {*/
+/*    #content #intro {*/
+/*        background-position-x: 40%;*/
+/*    }*/
+/*    #intro #intro-text {*/
+/*        font-size: 1.5rem;*/
+/*    }*/
 
-    .container {
-        width: 90%;
-    }
+/*    .container {*/
+/*        width: 90%;*/
+/*    }*/
 
-    blockquote {
-        font-size: 1.5rem;
-    }
+/*    blockquote {*/
+/*        font-size: 1.5rem;*/
+/*    }*/
 
-    #about p {
-        font-size: 1rem;
-        line-height: 25px;
-    }
+/*    #about p {*/
+/*        font-size: 1rem;*/
+/*        line-height: 25px;*/
+/*    }*/
 
-    #content section {
-        /* Adds extra spacing to fix the mobile screen size issue. DON'T CHANGE */
-        padding-bottom: 20px;
-    }
+/*    #content section {*/
+/*        !* Adds extra spacing to fix the mobile screen size issue. DON'T CHANGE *!*/
+/*        padding-bottom: 20px;*/
+/*    }*/
 
-    /* Experience card */
-    .exp-card {
-        width: 95%;
-    }
-    .exp-card-header {
-        display: block;
-        text-align: center;
-    }
+/*    !* Experience card *!*/
+/*    .exp-card {*/
+/*        width: 95%;*/
+/*    }*/
+/*    .exp-card-header {*/
+/*        display: block;*/
+/*        text-align: center;*/
+/*    }*/
 
-    .exp-card .card-name {
-        margin-left: 0;
-        font-size: 1.5rem;
-    }
+/*    .exp-card .card-name {*/
+/*        margin-left: 0;*/
+/*        font-size: 1.5rem;*/
+/*    }*/
 
-    /* Project Card */
-    .card {
-        width: 90%;
-    }
+/*    !* Project Card *!*/
+/*    .card {*/
+/*        width: 90%;*/
+/*    }*/
 
-    #contact a {
-        font-size: 1.3rem;
-        line-height: 40px;
-    }
+/*    #contact a {*/
+/*        font-size: 1.3rem;*/
+/*        line-height: 40px;*/
+/*    }*/
 
-    .card-popup .popup-title {
-        font-size: 1.2rem;
-    }
+/*    .card-popup .popup-title {*/
+/*        font-size: 1.2rem;*/
+/*    }*/
 
-    .popup-body li {
-        line-height: 20px;
-    }
-}
+/*    .popup-body li {*/
+/*        line-height: 20px;*/
+/*    }*/
+/*}*/
 
 
 /* Typing effect */
@@ -639,4 +639,133 @@ footer {
     text-align: center;
     color: #555;
     padding-bottom: 20px;
+}
+
+@media (max-width: 1088px) {
+    /* Navbar CSS*/
+    #navbar {
+        -moz-box-shadow: 1px 0 5px 0 #aaaaaa;
+        -webkit-box-shadow: 1px 0 5px 0 #aaaaaa;
+        box-shadow: 1px 0 5px 0 #aaaaaa;
+        top: 0;
+    }
+
+    /*Sidebar CSS*/
+    #sidebar {
+        position: fixed;
+        left: -195px;
+    }
+
+    /*
+    Content CSS
+    */
+    #content {
+        margin-left: 0;
+    }
+
+    .content-header {
+        font-size: 2.5rem;
+    }
+
+    .container {
+        width: 80%;
+    }
+
+    #content section {
+        padding-top: 45px;
+    }
+
+    #content #intro {
+        margin-bottom: -48px;
+        background-position-x: 20%;
+    }
+    #intro #intro-text {
+        font-size: 3rem;
+    }
+
+    /* Experience Card */
+    .exp-card {
+        width: 100%;
+    }
+
+    .exp-card li {
+        line-height: 25px;
+    }
+
+    /* Project Card */
+    .card {
+        width: 45%;
+    }
+}
+
+@media (max-width: 735px) {
+    #content #intro {
+        background-position-x: 40%;
+    }
+    #intro #intro-text {
+        font-size: 1.5rem;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    blockquote {
+        font-size: 1.5rem;
+    }
+
+    #about p {
+        font-size: 1rem;
+        line-height: 25px;
+    }
+
+    #content section {
+        /* Adds extra spacing to fix the mobile screen size issue. DON'T CHANGE */
+        padding-bottom: 20px;
+    }
+
+    /* Experience card */
+    .exp-card {
+        width: 95%;
+    }
+    .exp-card-header {
+        display: block;
+        text-align: center;
+    }
+
+    .exp-card .card-name {
+        margin-left: 0;
+        font-size: 1.5rem;
+    }
+
+    /* Project Card */
+    .card {
+        width: 90%;
+    }
+
+    #contact a {
+        font-size: 1.3rem;
+        line-height: 40px;
+    }
+
+    .card-popup .popup-title {
+        font-size: 1.2rem;
+    }
+
+    .popup-body li {
+        line-height: 20px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .exp-card {
+        width: 90%;
+    }
+    .card-popup .popup-title {
+        font-size: 1.2rem;
+    }
+
+    .popup-body li {
+        line-height: 20px;
+    }
 }
